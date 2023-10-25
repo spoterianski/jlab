@@ -16,7 +16,11 @@ RUN pip install \
     plotly \
     matplotlib \
     jupyterlab-horizon-theme \
-    jupyterlab-git 
+    jupyterlab-git \
+    networkx \
+    nxviz \
+    ipywidgets \
+    pyvis
 
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser"]
 
