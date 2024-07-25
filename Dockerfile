@@ -25,7 +25,12 @@ RUN pip install \
     scipy \
     bokeh \
     pyarrow \
-    openpyxl
+    openpyxl \
+    pendulum \
+    psycopg2 \
+    SQLAlchemy \
+    clickhouse-connect \
+    pyjwt
 
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser"]
 
